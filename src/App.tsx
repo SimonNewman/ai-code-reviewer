@@ -50,13 +50,7 @@ function App() {
       <div className={cn("flex h-full items-center")}>
         <div className={cn("max-w-7xl mx-auto px-24 py-12")}>
           <div className={cn("mb-8 prose max-w-none")}>
-            <h1
-              className={cn(
-                "inline-block bg-gradient-to-r from-pink via-purple to-blue text-transparent bg-clip-text mb-2"
-              )}
-            >
-              AI Code Reviewer
-            </h1>
+            <h1 className={cn("mb-2")}>AI Code Reviewer</h1>
             <h2 className={cn("text-lg font-medium mb-8 mt-0 opacity-80")}>
               Paste your code snippet below and hit 'Review My Code' to get
               instant, constructive feedback on your work.
